@@ -38,7 +38,7 @@ module.exports = {
   ],
 
   // Возможность задать спец ОБЛАСТЬ для определенного типа коммита (пример для 'fix')
-  /*
+  
   scopeOverrides: {
     fix: [
       {name: 'style'},
@@ -46,7 +46,7 @@ module.exports = {
       {name: 'unitTest'}
     ]
   },
-  */
+ 
 
   // Поменяем дефолтные вопросы
   messages: {
