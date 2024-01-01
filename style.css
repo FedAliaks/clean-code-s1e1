@@ -32,15 +32,14 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.header__task-container {
   display: flex;
 }
 .list-tasks {
   margin: 0;
   padding: 0px;
 }
-.list__item,
-.title {
+.list__item {
   list-style: none;
 }
 input,
@@ -86,11 +85,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.title[for="new-task"] {
+.header__title {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+input#newTask {
   width: 318px;
 }
 
