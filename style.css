@@ -110,7 +110,7 @@
 .list__item > .input[type="checkbox"] {
   margin: 0 10px;
 }
-.list__item > label {
+.list__item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -119,17 +119,17 @@
 .list__item >    .input[type="text"] {
   width: 226px;
 }
-.button.delete img {
+.delete-image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button.delete img:hover {
+.delete-image:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.list-tasks#completedTasks label {
+.list-tasks#completedTasks .label {
   text-decoration: line-through;
   color: #888;
 }
@@ -144,6 +144,6 @@
   width: 224px;
 }
 
-.list-tasks li.editMode label {
+.list-tasks li.editMode .label {
   display: none;
 }
